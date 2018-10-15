@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -22,9 +26,9 @@
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav navbar-right links">
-                    <li role="presentation"><a href="dashboard.html"><span class="fa fa-pie-chart"></span> Videos </a></li>
-                    <li role="presentation"><a href="profile.html"><span class="fa fa-user"></span> User Name</a></li>
-                    <li role="presentation"><a href="index.html"><span class="fa fa-power-off"></span> Logout </a></li>
+                    <li role="presentation"><a href="dashboard.php"><span class="fa fa-pie-chart"></span> Videos </a></li>
+                    <li role="presentation"><span class="fa fa-user"></span> User Name</a></li>
+                    <li role="presentation"><a href="index.php"><span class="fa fa-power-off"></span> Logout </a></li>
                 </ul>
             </div>
         </div>
@@ -47,28 +51,28 @@
                     <source src="assets/vids/vid 2.mp4#t=20">
                 </video>
                 <p><strong>Title:</strong> IT Trailer</p>
-                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+                <a class="btn btn-primary btn-block" role="button" href="stream.php">Watch Now</a>
             </div>
             <div class="col-md-3">
                 <video width="240" height="320" >
                     <source src="assets/vids/vid 3.mp4#t=20">
                 </video>
                 <p><strong>Title:</strong> Worlds most Powerful Laptop</p>
-                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+                <a class="btn btn-primary btn-block" role="button" href="stream.php">Watch Now</a>
             </div>
             <div class="col-md-3">
                 <video width="240" height="320" >
                     <source src="assets/vids/vid 4.mp4#t=20">
                 </video>
             <p><strong>Title:</strong> Strange Planets</p>
-            <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            <a class="btn btn-primary btn-block" role="button" href="stream.php">Watch Now</a>
             </div>
             <div class="col-md-3">
                 <video width="240" height="320" >
                     <source src="assets/vids/vid 3.mp4#t=20">
                 </video>
                 <p><strong>Title:</strong> Worlds most Powerful Laptop</p>
-                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+                <a class="btn btn-primary btn-block" role="button" href="stream.php">Watch Now</a>
             </div>    
         </div>
     </div>

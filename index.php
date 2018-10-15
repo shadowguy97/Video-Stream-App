@@ -25,9 +25,9 @@
                 </div>
                 <div class="collapse navbar-collapse" id="navbar-collapse">
                     <ul class="nav navbar-nav navbar-right links">
-                        <li role="presentation"><a href="index.html">Home </a></li>
-                        <li role="presentation"><a href="register.html">Register </a></li>
-                        <li role="presentation"><a href="login.html">Login </a></li>
+                        <li role="presentation"><a href="index.php">Home </a></li>
+                        <li role="presentation"><a href="register.php">Register </a></li>
+                        <li role="presentation"><a href="login.php">Login </a></li>
                     </ul>
                 </div>
             </div>
@@ -38,7 +38,7 @@
             <div class="jumbotron hero-technology">
                 <h1 class="hero-title">Video Streaming Application.</h1>
                 <p class="hero-subtitle">Welcome to the University of Ibadan Video Streaming Application. Please login to use the service.</p>
-                <p><a class="btn btn-primary btn-lg hero-button" role="button" href="login.html">Login </a></p>
+                <p><a class="btn btn-primary btn-lg hero-button" role="button" href="login.php">Login </a></p>
             </div>
         </div>
     </div>
