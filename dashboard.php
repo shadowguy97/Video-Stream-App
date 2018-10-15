@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming App: Dashboard</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
+    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
+</head>
+
+<body>
+    <div class="macbook-mockup"></div>
+    <nav class="navbar navbar-default custom-header">
+        <div class="container-fluid">
+            <div class="navbar-header"><a class="navbar-brand navbar-link" href="#">Company<span>logo </span> </a>
+                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right links">
+                    <li role="presentation"><a href="dashboard.html"><span class="fa fa-pie-chart"></span> Videos </a></li>
+                    <li role="presentation"><a href="profile.html"><span class="fa fa-user"></span> User Name</a></li>
+                    <li role="presentation"><a href="index.html"><span class="fa fa-power-off"></span> Logout </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-6 col-md-push-3">
+            <div class="input-group">
+                <input type="file" id="vid_upload" name="vid_upload" class="form-control" placeholder="Select Video">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button">Upload Video</button>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container-fluid">
+            <div class="col-md-3">
+                <video width="240" height="320" autoplay muted>
+                    <source src="assets/vids/vid 1.mp4#t=20">
+                </video>
+                <p><strong>Title:</strong> Tom and Jerry</p>
+                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                <video width="240" height="320" autoplay muted>
+                    <source src="assets/vids/vid 2.mp4#t=20">
+                </video>
+                <p><strong>Title:</strong> IT Trailer</p>
+                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                <video width="240" height="320" autoplay muted>
+                    <source src="assets/vids/vid 3.mp4#t=20">
+                </video>
+                <p><strong>Title:</strong> Worlds most Powerful Laptop</p>
+                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                <video width="240" height="320" autoplay muted>
+                    <source src="assets/vids/vid 4.mp4#t=20">
+                </video>
+                <p><strong>Title:</strong> Strange Planets</p>
+                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                    <video width="240" height="320" autoplay muted>
+                        <source src="assets/vids/vid 3.mp4#t=20">
+                    </video>
+                    <p><strong>Title:</strong> Worlds most Powerful Laptop</p>
+                    <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>    
+            <div class="col-md-3">
+                    <video width="240" height="320" autoplay muted>
+                        <source src="assets/vids/vid 4.mp4#t=20">
+                    </video>
+                    <p><strong>Title:</strong> Strange Planets</p>
+                    <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                    <video width="240" height="320" autoplay muted>
+                        <source src="assets/vids/vid 1.mp4#t=20">
+                    </video>
+                    <p><strong>Title:</strong> Tom and Jerry</p>
+                    <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                    <video width="240" height="320" autoplay muted>
+                        <source src="assets/vids/vid 2.mp4#t=20">
+                    </video>
+                    <p><strong>Title:</strong> IT Trailer</p>
+                    <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+            <p class="lead text-center">(C) Computer Science 2018</p>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

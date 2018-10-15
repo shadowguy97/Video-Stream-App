@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Streaming App: Dashboard</title>
+    <title>Video Streaming App: Stream</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
@@ -30,28 +30,49 @@
         </div>
     </nav>
     <div class="row">
-        <div class="col-md-6 col-md-push-3">
-            <div class="input-group">
-                <input type="file" id="vid_upload" name="vid_upload" class="form-control" placeholder="Select Video">
-                <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Upload Video</button>
-                </span>
+        <div class="container-fluid">
+            <div class="col-md-12">
+                <video width="720" height="540" controls>
+                    <source src="assets/vids/vid 1.mp4">
+                </video>
+                <p id="Vid_title"><strong>Title:</strong> Tom and Jerry</p>
             </div>
         </div>
     </div>
+
     <div class="row">
-        <div class="col-md-6"><img class="img-responsive" src="assets/img/screen-content-macbook.jpg">
-            <p class="text-center">Laboratory 1</p><a class="btn btn-primary btn-block" role="button" href="booking.html">Book Now</a>
-        </div>
-        <div class="col-md-6"><img class="img-responsive" src="assets/img/screen-content-macbook.jpg">
-            <p class="text-center">Laboratory 2</p><a class="btn btn-primary btn-block" role="button" href="booking.html">Book Now</a>
+        <div class="container-fluid">
+            <div class="col-md-3">
+                <video width="240" height="320" >
+                    <source src="assets/vids/vid 2.mp4#t=20">
+                </video>
+                <p><strong>Title:</strong> IT Trailer</p>
+                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                <video width="240" height="320" >
+                    <source src="assets/vids/vid 3.mp4#t=20">
+                </video>
+                <p><strong>Title:</strong> Worlds most Powerful Laptop</p>
+                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                <video width="240" height="320" >
+                    <source src="assets/vids/vid 4.mp4#t=20">
+                </video>
+            <p><strong>Title:</strong> Strange Planets</p>
+            <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>
+            <div class="col-md-3">
+                <video width="240" height="320" >
+                    <source src="assets/vids/vid 3.mp4#t=20">
+                </video>
+                <p><strong>Title:</strong> Worlds most Powerful Laptop</p>
+                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
+            </div>    
         </div>
     </div>
-    <div id="lab" class="row">
-        <div class="col-md-6 col-md-push-3"><img class="img-responsive" src="assets/img/screen-content-macbook.jpg">
-            <p class="text-center">Laboratory 3</p><a class="btn btn-primary btn-block" role="button" href="booking.html">Book Now</a>
-        </div>
-    </div>
+
 
     <footer>
             <p class="lead text-center">(C) Computer Science 2018</p>
