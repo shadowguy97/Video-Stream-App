@@ -9,16 +9,16 @@ The overview of this this page is as follows:
 
 Login page.
 This would handle the authentification of the registered users within the system.
-it can be accessed from the login.html page.
+it can be accessed from the login.php page.
 
 Signup Page.
 This would handle the registeration new users within the system
-it can be accessed from the register.html page.
+it can be accessed from the register.php page.
 
 Upload Page.
 This page would handle the uploading of videos to the server and also show a list of currently uploaded vidoes within the server. 
-it can be accessed from the dashboard.html page which you must be a registered user.
+it can be accessed from the dashboard.php page which you must be a registered user.
 
 Streaming Page.
 This is the page responsible for the video streaming. any video selected form the upload page will be directed here and played automatically.
-it can be accessed from the stream.html page which you must be a registered user.
+it can be accessed from the stream.php page which you must be a registered user.
