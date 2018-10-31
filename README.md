@@ -1,24 +1,16 @@
-This repo is for the Software engineering project which we are to design a wev video streaming application.
+This repo is for the Computer Management System course
 All codes are open source.
 
-The overview of this this page is as follows:
-1. Login Page
-2. Signup Page
-3. Upload Page
-4. Streaming Page.
+The overview of this repo is as follows:
+1. Index Page
+2. Dashboard Page
+3. Courses Page.
 
-Login page.
-This would handle the authentification of the registered users within the system.
-it can be accessed from the login.php page.
+Index page.
+This page is the landing page, displaying a brief overview of the website.
 
-Signup Page.
-This would handle the registeration new users within the system
-it can be accessed from the register.php page.
+Dashboard page.
+This shows the current available courses and a brief description on them
 
-Upload Page.
-This page would handle the uploading of videos to the server and also show a list of currently uploaded vidoes within the server. 
-it can be accessed from the dashboard.php page which you must be a registered user.
-
-Streaming Page.
-This is the page responsible for the video streaming. any video selected form the upload page will be directed here and played automatically.
-it can be accessed from the stream.php page which you must be a registered user.
+Courses page.
+This is where the user views the requested courses and all materials relating to the course.
