@@ -1,105 +1,189 @@
-<?html
-session_start();
-?>
 
 <!DOCTYPE html>
-<html>
-
-<head>
+<html lang="en">
+  <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ethics Courses: Dashboard</title>
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
-    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Header.css">
-    <link rel="stylesheet" href="assets/css/Pretty-Footer.css">
-</head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<body>
-    <div class="macbook-mockup"></div>
-    <nav class="navbar navbar-default custom-header">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
-            </div>
-            <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="nav navbar-nav navbar-right links">
-                    <li role="presentation"><a href="index.html"><span class="fa fa-home"></span> Home </a></li>
-                    <li role="presentation"><a href="dashboard.html"><span class="fa fa-pie-chart"></span> Videos </a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    
-    <div class="row">
-        <div class="container-fluid">
-            <div class="col-md-3">
-                <video width="240" height="320" autoplay muted>
-                    <source src="assets/vids/vid 1.mp4#t=20">
-                </video>
-                <p><strong>Title:</strong> Tom and Jerry</p>
-                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
-            </div>
-            <div class="col-md-3">
-                <video width="240" height="320" autoplay muted>
-                    <source src="assets/vids/vid 2.mp4#t=20">
-                </video>
-                <p><strong>Title:</strong> IT Trailer</p>
-                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
-            </div>
-            <div class="col-md-3">
-                <video width="240" height="320" autoplay muted>
-                    <source src="assets/vids/vid 3.mp4#t=20">
-                </video>
-                <p><strong>Title:</strong> Worlds most Powerful Laptop</p>
-                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
-            </div>
-            <div class="col-md-3">
-                <video width="240" height="320" autoplay muted>
-                    <source src="assets/vids/vid 4.mp4#t=20">
-                </video>
-                <p><strong>Title:</strong> Strange Planets</p>
-                <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
-            </div>
-            <div class="col-md-3">
-                    <video width="240" height="320" autoplay muted>
-                        <source src="assets/vids/vid 3.mp4#t=20">
-                    </video>
-                    <p><strong>Title:</strong> Worlds most Powerful Laptop</p>
-                    <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
-            </div>    
-            <div class="col-md-3">
-                    <video width="240" height="320" autoplay muted>
-                        <source src="assets/vids/vid 4.mp4#t=20">
-                    </video>
-                    <p><strong>Title:</strong> Strange Planets</p>
-                    <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
-            </div>
-            <div class="col-md-3">
-                    <video width="240" height="320" autoplay muted>
-                        <source src="assets/vids/vid 1.mp4#t=20">
-                    </video>
-                    <p><strong>Title:</strong> Tom and Jerry</p>
-                    <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
-            </div>
-            <div class="col-md-3">
-                    <video width="240" height="320" autoplay muted>
-                        <source src="assets/vids/vid 2.mp4#t=20">
-                    </video>
-                    <p><strong>Title:</strong> IT Trailer</p>
-                    <a class="btn btn-primary btn-block" role="button" href="stream.html">Watch Now</a>
-            </div>
-        </div>
-    </div>
+    <link rel="canonical" href="https://getbootstrap.com/docs/3.3/examples/starter-template/">
 
+    <title>Code OF Ethics</title>
 
-    <footer>
-            <p class="lead text-center">(C) Computer Science 2018</p>
-    </footer>
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-</body>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/blog.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+
+    #myBtn:hover {
+        background-color: #555;
+    }
+</style>
+  </head>
+
+  <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-circle-up"></i></button>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="index.html">Code Of Ethics</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="dashboard.html">Article</a></li>
+                        <li><a href="videos.html">Video</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
+        <div class="container">
+            <div class="blog-header">
+                <h1 class="blog-title">Code OF Ethics For IT Professionals In Nigeria</h1>
+                <p class="lead blog-description">The official site with the Code of Ethics for Nigerian IT Professionals</p>
+            </div>
+        
+            <div class="row">
+        
+                <div class="col-sm-8 blog-main">
+        
+                    <div class="blog-post">
+                        <h2 class="blog-post-title" id="art_1" name="art_1">Code of Ethics</h2>
+                        <p class="blog-post-meta"><a href="https://www.investopedia.com/terms/c/code-of-ethics.asp" target="_blank">Code of Ethics</a></p>
+        
+                        <p><strong> What is a Code of Ethics </strong></p>
+                        <p>A code of ethics is a guide of principles designed to help professionals conduct business honestly and with integrity. 
+                            A code of ethics document may outline the mission and values of the business or organization, how professionals are supposed to approach problems, the ethical principles based on the organization's core values and the standards to which the professional is held.
+                            A code of ethics, also referred to as an "ethical code," may encompass areas such as business ethics, a code of professional practice and an employee code of conduct.
+                        </p>
+
+                        <p> <strong> BREAKING DOWN Code of Ethics </strong></p>
+                        <p>Both businesses and trade organizations typically have some sort of code of ethics that their employees or members are supposed to follow. Breaking the code of ethics can result in termination or dismissal from the organization. A code of ethics is important because it clearly lays out the rules for behavior and provides the groundwork for a preemptive warning.     
+                            Regardless of size, businesses count on their management staff to set a standard of ethical conduct for other employees to follow. When administrators adhere to the code of ethics, it sends a message that universal compliance is expected of every employee.
+                        </p>
+                        <p><strong>Compliance-Based Code of Ethics</strong></p>
+                        <p>For all businesses, laws regulate issues such as hiring and safety standards. Compliance-based codes of ethics not only set guidelines for conduct, but also determine penalties for violations.
+                            In some industries, including banking, specific laws govern business conduct. These industries formulate compliance-based codes of ethics to enforce laws and regulations. Employees usually undergo formal training to learn the rules of conduct. Because noncompliance can create legal issues for the company as a whole, individual workers within a firm may face penalties for failing to follow guidelines.
+                            To ensure that the aims and principles of the code of ethics are followed, some companies appoint a compliance officer. This individual is tasked with keeping up to date on changes in regulation codes and monitoring employee conduct to encourage conformity.
+                            This type of code of ethics is based on clear-cut rules and well-defined consequences rather than individual monitoring of personal behavior. Therefore, despite strict adherence to the law, some compliance-based codes of conduct do not promote a climate of moral responsibility within the company.
+                        </p>    
+                        <p><strong>Value-Based Code of Ethics</strong></p>
+                        <p>
+                            A value-based code of ethics addresses a company's core value system. It may outline standards of responsible conduct as they relate to the larger public good and the environment. Value-based ethical codes may require a greater degree of self-regulation than compliance-based codes.    
+                           Some codes of conduct contain language that addresses both compliance and values. For example, a grocery store chain might create a code of conduct that espouses the company's commitment to health and safety regulations above financial gain. That grocery chain might also include a statement about refusing to contract with suppliers that feed hormones to livestock or raise animals in inhumane living conditions.
+                        </p>
+                            
+                        <p><strong>Code of Ethics Among Professionals</strong></p>
+                        <p>Financial advisers registered with the Securities and Exchange Commission or a state regulator are bound by a code of ethics known as fiduciary duty. This is a legal requirement and also a code of loyalty that requires them to act in the best interest of their clients.    
+                        Certified Public Accountants, who are not typically considered to be a fiduciary to their clients, still are expected to follow similar ethical standards, such as integrity, objectivity, truthfulness and avoidance of conflicts of interest, according the the American Institute of Certified Public Accountants (AICPA).</p>
+                    </div><!-- /.blog-post -->
+        
+                    <div class="blog-post"  id="art_2" name="art_2">
+                        <h2 class="blog-post-title">Ethical Codes</h2>
+                        <p>Ethical codes fill gaps in laws and regulation that fail to reach or simply can not be applied.
+                            It is a guide of principles designed to help professionals conduct their business ethically.
+                            This code of ethics can also describe ethical values of a company or organization and reflect its mission. 
+                            How employees are to approach different issues, and how these standards should be enforced. Most professions have an ethical codes in which they must follow. Those codes often signifies or states what they hold most dear. ...</p>
+        
+                        <a href="https://en.wikibooks.org/wiki/Ethics_for_IT_Professionals/Professional_Code_of_Ethics" target="_blank" class="btn btn-large btn-primary">Read More</a>
+                    </div><!-- /.blog-post -->
+        
+                    <div class="blog-post"  id="art_3" name="art_3">
+                        <h2 class="blog-post-title">COMPUTER PROFESSIONALS (REGISTRATION COUNCIL) OF NIGERIA </h2>
+                        <p>The impact of the use of computational machinery and techniques related thereto
+                                on the public, employees and clients, and the professionals in the use of such
+                                machinery themselves is well known and need no further expatiation. It is such
+                                that there are now expectations, and justifiably so, of standards of competence
+                                and conduct from the Profession as exist in the older professions of law,
+                                medicine, architecture and pharmacy. </p>
+                        <a href="https://www.cpn.gov.ng/download/CODE%20OF%20ETHICS%20AND%20PROFESSIONAL%20CONDUCT.pdf"  target="_blank" class="btn btn-large btn-primary">Read Online</a>
+                        
+                    </div><!-- /.blog-post -->
+
+                    <div class="blog-post"  id="art_4" name="art_4">
+                            <h2 class="blog-post-title">ACM Code of Ethics and Professional Conduct</h2>
+                            <p>Computing professionals' actions change the world. To act responsibly, they should reflect upon the wider impacts of their work, consistently supporting the public good. 
+                                The ACM Code of Ethics and Professional Conduct ("the Code") expresses the conscience of the profession.</p>
+                            <a href="https://www.acm.org/code-of-ethics"  target="_blank" class="btn btn-large btn-primary">Read Online</a>
+                            
+                        </div><!-- /.blog-post -->
+                    
+
+                </div><!-- /.blog-main -->
+        
+                <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                    <div class="sidebar-module">
+                        <h4>Articles</h4>
+                        <ol >
+                            <li><a href="#art_1">Code of Ethics</a></li>
+                            <li><a href="#art_2">Ethical Codes</a></li>
+                            <li><a href="#art_3">COMPUTER PROFESSIONALS (REGISTRATION COUNCIL) OF NIGERIA</a></li>
+                            <li><a href="#art_4">ACM Code of Ethics and Professional Conduct</a></li>
+                        </ol>
+                    </div>
+                </div><!-- /.blog-sidebar -->
+        
+            </div><!-- /.row -->
+        
+        </div><!-- /.container -->
+        
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="assets/bootstrap/js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("myBtn").style.display = "block";
+              } else {
+                document.getElementById("myBtn").style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+  </body>
 </html>
